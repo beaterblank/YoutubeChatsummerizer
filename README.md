@@ -26,7 +26,7 @@ So now the task at hand is when given a list of sentences or words we need to fi
 for sentences, This relation is given by a similarity metric, where it’s measured as a function of their content overlap, The overlap of two sentences can be determined simply as the number of common tokens between the lexical representations of the two sentences
 
 ### The Code
-Here is the [colab](https://colab.research.google.com/drive/1Mk1WxKF0DaH0sGlfXJHDtNA7zYE8sKTx?usp=sharing) for the algorithm mentioned, or check out [textRank.py](./textrank.py) implementation for the problem
+Here is the [colab](https://colab.research.google.com/drive/1Mk1WxKF0DaH0sGlfXJHDtNA7zYE8sKTx?usp=sharing) for the algorithm mentioned, or check out [textrank.py](./textrank.py) implementation for the problem
 
 # References
 
