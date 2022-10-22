@@ -1,5 +1,5 @@
 # YoutubeChatsummerizer
-scrapes text from YouTube live chat and summerizes it
+scrapes text from YouTube live chat and finds the most relavent msgs from them
 
 # Introduction
 So, The other day I was watching a live stream and chat was zooming past my screen so much I could not see what anyone was saying, I wondered how hard it is for streamers to reply to any of that ginormous spam, So it came to me that if there was a way to take these loads of sentences and get the most important/relevant ones from them it would be great so I started researching how to do it,
