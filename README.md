@@ -9,7 +9,7 @@ Using python and selenium and a bit of tinkering around on the YouTube webpage I
 # TextRank
 This is a graph-based ranking algorithm. Graph-based ranking algorithm is essentially a way of deciding the importance of a vertex within a graph vertex in this context being a sentence or a word, this works like a voting system as in one connection to a vertex a from another vertex b is counted as a vote from vertex b using this voting we need to find out vertices with most votes and they are our answer
 
-## Context
+### Context
 let G = (V, E) represents a weighted directed graph with a set of vertices V and a set of Edges E and Weights W
 
 let In(Vi) represent all incoming edges and Out(Vi) represent all outgoing edges
@@ -19,15 +19,15 @@ The score of a particular vertex is defined by :
 
 where, Wij refers to the weight of the edge from I to j, and we set these weights based on the inputs given and their connection strengths and d the damping factor, which can be set between 0 and 1, is usually set to 0.85
 
-## Process
+### Process
 So now the task at hand is when given a list of sentences or words we need to find how closely they are related to other sentences and make a weighted graph using which we calculate the score of each vertex
 
 for sentences, This relation is given by a similarity metric, where it’s measured as a function of their content overlap, The overlap of two sentences can be determined simply as the number of common tokens between the lexical representations of the two sentences
 
-## The Code
+### The Code
 Here is the colab for the algorithm mentioned, or check out my GitHub implementation for the problem
 
-#References
+# References
 
 https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf
 
