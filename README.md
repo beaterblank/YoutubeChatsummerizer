@@ -1,4 +1,4 @@
-# YoutubeChatsummerizer
+# YoutubeChatSummerizer
 scrapes text from YouTube live chat and finds the most relavent msgs from them
 
 # Introduction
