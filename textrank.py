@@ -1,10 +1,18 @@
-import math
+#author : G Mohan Teja
+#last edited : 22/10/2022
+
+"""
+this module is responsible for taking a list of sentences
+and outputting the most relavent ones
+"""
+
+#imports
 from time import time
 import networkx as nx
 import numpy as np
 from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer
 
-
+#implementing textrank algorithim  
 def textrank(sentences):
     start = time()
     bow_matrix = CountVectorizer().fit_transform(sentences)
