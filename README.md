@@ -16,7 +16,7 @@ let In(Vi) represent all incoming edges and Out(Vi) represent all outgoing edges
 
 The score of a particular vertex is defined by :
 
-[img](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff175ec37-b14c-4aa7-b3b6-e2ba129a1e29_565x96.png)
+![img](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff175ec37-b14c-4aa7-b3b6-e2ba129a1e29_565x96.png)
 
 where, Wij refers to the weight of the edge from I to j, and we set these weights based on the inputs given and their connection strengths and d the damping factor, which can be set between 0 and 1, is usually set to 0.85
 
